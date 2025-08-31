@@ -1,0 +1,26 @@
+{
+  "type": "actuallyadditions:empowering",
+  "base": {
+    "item": "actuallyadditions:restonia_crystal"
+  },
+  "color": 10365735,
+  "energy": 5000,
+  "modifiers": [
+    {
+      "item": "thermal:signalum_gear"
+    },
+    {
+      "item": "enderio:redstone_alloy_ingot"
+    },
+    {
+      "item": "minecraft:bricks"
+    },
+    {
+      "item": "rootsclassic:infernal_bulb"
+    }
+  ],
+  "result": {
+    "item": "actuallyadditions:empowered_restonia_crystal"
+  },
+  "time": 50
+}

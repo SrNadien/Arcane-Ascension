@@ -1,0 +1,6 @@
+{
+"type":"crafting_shaped",
+"pattern":[" 0 ","010"," 0 "],
+"key":{"0":{"tag": "forge:nuggets/netherite"},"1":{"item": "kubejs:ingot_of_elevation"}},
+"result":{"item":"corail_recycler:netherite_disk"}
+}

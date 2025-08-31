@@ -1,0 +1,28 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 6400,
+  "experience": 0.3,
+  "inputs": [
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "kubejs:energized_dark_ingot"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "mekanism:ingot_refined_obsidian"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "tag": "forge:ingots/steel"
+      }
+    }
+  ],
+  "result": {
+    "item": "enderio:dark_steel_ingot"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "actuallyadditions:empowering",
+  "base": {
+    "item": "kubejs:glod_crystal"
+  },
+  "color": 6522834,
+  "energy": 5000,
+  "modifiers": [
+    {
+      "item": "enderio:energized_gear"
+    },
+    {
+      "item": "thermal:lumium_gear"
+    },
+    {
+      "item": "rootsclassic:elderberry"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    }
+  ],
+  "result": {
+    "item": "kubejs:empowered_glod_crystal"
+  },
+  "time": 50
+}

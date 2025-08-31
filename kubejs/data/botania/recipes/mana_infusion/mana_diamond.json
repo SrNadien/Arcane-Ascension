@@ -1,0 +1,10 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "occultism:iesnium_ingot"
+  },
+  "mana": 10000,
+  "output": {
+    "item": "botania:mana_diamond"
+  }
+}

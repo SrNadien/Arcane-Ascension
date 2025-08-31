@@ -1,0 +1,10 @@
+// Compost colors for thermal_more. You may add your own colors, change existing ones, or remove colors that aren't needed.
+15x_upgrade_augment, #d6bbff
+20x_upgrade_augment, #f2b1ff
+25x_upgrade_augment, #afaba1
+30x_upgrade_augment, #bcc8ff
+35x_upgrade_augment, #eb9ddc
+40x_upgrade_augment, #c665c6
+45x_upgrade_augment, #8283c5
+mega_upgrade_augment, #dec69d
+super_upgrade_augment, #ff62eb

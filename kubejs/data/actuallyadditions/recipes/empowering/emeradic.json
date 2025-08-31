@@ -1,0 +1,26 @@
+{
+  "type": "actuallyadditions:empowering",
+  "base": {
+    "item": "actuallyadditions:emeradic_crystal"
+  },
+  "color": 3492376,
+  "energy": 5000,
+  "modifiers": [
+    {
+      "item": "enderio:vibrant_gear"
+    },
+    {
+      "item": "minecraft:slime_block"
+    },
+    {
+      "item": "rootsclassic:growth_powder"
+    },
+    {
+      "item": "minecraft:cactus"
+    }
+  ],
+  "result": {
+    "item": "actuallyadditions:empowered_emeradic_crystal"
+  },
+  "time": 50
+}

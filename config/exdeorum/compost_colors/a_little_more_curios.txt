@@ -1,0 +1,11 @@
+// Compost colors for a_little_more_curios. You may add your own colors, change existing ones, or remove colors that aren't needed.
+extra_slots_back, #797979
+extra_slots_belt, #797979
+extra_slots_body, #797979
+extra_slots_bracelet, #797979
+extra_slots_charm, #797979
+extra_slots_curio, #797979
+extra_slots_hands, #797979
+extra_slots_head, #797979
+extra_slots_necklace, #797979
+extra_slots_ring, #797979

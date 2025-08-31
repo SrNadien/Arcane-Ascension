@@ -1,0 +1,26 @@
+{
+  "type": "actuallyadditions:empowering",
+  "base": {
+    "item": "actuallyadditions:diamatine_crystal"
+  },
+  "color": 6522834,
+  "energy": 5000,
+  "modifiers": [
+    {
+      "item": "alltheores:platinum_gear"
+    },
+    {
+      "item": "tinkers_thinking:ardite_ingot"
+    },
+    {
+      "item": "compatdelight:glow_berry_lolipop"
+    },
+    {
+      "item": "minecraft:clay"
+    }
+  ],
+  "result": {
+    "item": "actuallyadditions:empowered_diamatine_crystal"
+  },
+  "time": 50
+}

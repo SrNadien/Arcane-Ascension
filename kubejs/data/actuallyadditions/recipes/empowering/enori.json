@@ -1,0 +1,26 @@
+{
+  "type": "actuallyadditions:empowering",
+  "base": {
+    "item": "actuallyadditions:enori_crystal"
+  },
+  "color": 13421772,
+  "energy": 5000,
+  "modifiers": [
+    {
+      "item": "thermal:iron_gear"
+    },
+    {
+      "item": "thermal:steel_gear"
+    },
+    {
+      "item": "minecraft:snow_block"
+    },
+    {
+      "item": "enderio:silicon"
+    }
+  ],
+  "result": {
+    "item": "actuallyadditions:empowered_enori_crystal"
+  },
+  "time": 50
+}

@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create:copper_casing"
+    },
+    {
+      "item": "tinkers_thinking:ardite_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:railway_casing"
+    }
+  ]
+}

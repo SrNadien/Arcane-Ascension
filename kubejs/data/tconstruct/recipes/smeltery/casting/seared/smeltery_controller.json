@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:retextured_casting_basin",
+  "cast": {
+    "item": "kubejs:cosmic_alloy"
+  },
+  "cast_consumed": true,
+  "cooling_time": 100,
+  "fluid": {
+    "amount": 360,
+    "fluid": "advanced_ae:quantum_infusion_source"
+  },
+  "result": "tconstruct:smeltery_controller"
+}

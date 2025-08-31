@@ -1,0 +1,5 @@
+// Compost colors for customnpcs. You may add your own colors, change existing ones, or remove colors that aren't needed.
+npcscripteddoortool, #6c664a
+npcsoulstoneempty, #ffffff
+npcsoulstonefilled, #ffe7ff
+scripted_item, #706e55

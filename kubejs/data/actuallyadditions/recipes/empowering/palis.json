@@ -1,0 +1,26 @@
+{
+  "type": "actuallyadditions:empowering",
+  "base": {
+    "item": "actuallyadditions:palis_crystal"
+  },
+  "color": 2437779,
+  "energy": 5000,
+  "modifiers": [
+    {
+      "item": "thermal:lead_gear"
+    },
+    {
+      "item": "minecraft:prismarine_shard"
+    },
+    {
+      "item": "rootsclassic:verdant_sprig"
+    },
+    {
+      "item": "ultimate_utilities:enderium_base"
+    }
+  ],
+  "result": {
+    "item": "actuallyadditions:empowered_palis_crystal"
+  },
+  "time": 50
+}

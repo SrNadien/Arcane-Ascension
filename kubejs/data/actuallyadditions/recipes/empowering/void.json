@@ -1,0 +1,26 @@
+{
+  "type": "actuallyadditions:empowering",
+  "base": {
+    "item": "actuallyadditions:void_crystal"
+  },
+  "color": 3355443,
+  "energy": 5000,
+  "modifiers": [
+    {
+      "item": "enderio:dark_bimetal_gear"
+    },
+    {
+      "item": "thermal:invar_gear"
+    },
+    {
+      "item": "minecraft:flint"
+    },
+    {
+      "item": "minecraft:charcoal"
+    }
+  ],
+  "result": {
+    "item": "actuallyadditions:empowered_void_crystal"
+  },
+  "time": 50
+}

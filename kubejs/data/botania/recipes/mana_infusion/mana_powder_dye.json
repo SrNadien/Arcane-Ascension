@@ -1,0 +1,27 @@
+{
+  "type": "botania:mana_infusion",
+  "input": [
+    {
+      "item": "allthemodium:unobtainium_dust"
+    },
+    {
+      "item": "forbidden_arcanus:mundabitur_dust"
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    {
+      "item": "allthemodium:allthemodium_dust"
+    },
+    {
+      "item": "allthemodium:vibranium_dust"
+    },
+    {
+      "item": "ae2:ender_dust"
+    }
+  ],
+  "mana": 500,
+  "output": {
+    "item": "botania:mana_powder"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "actuallyadditions:empowering",
+  "base": {
+    "item": "kubejs:crystal_bundle"
+  },
+  "color": 6522834,
+  "energy": 5000,
+  "modifiers": [
+    {
+      "item": "actuallyadditions:solidified_experience"
+    },
+    {
+      "item": "actuallyadditions:solidified_experience"
+    },
+    {
+      "item": "actuallyadditions:solidified_experience"
+    },
+    {
+      "item": "actuallyadditions:solidified_experience"
+    }
+  ],
+  "result": {
+    "item": "kubejs:empowered_crystal_bundle"
+  },
+  "time": 50
+}

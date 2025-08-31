@@ -1,0 +1,15 @@
+// Compost colors for apotheotic_additions. You may add your own colors, change existing ones, or remove colors that aren't needed.
+apotheotic_coin, #fffae6
+artifact_material, #fe9812
+ascended_coin, #ffffc8
+commonapple, #848484
+epicapple, #692c90
+esoteric_material, #231616
+gemboundsigil, #656f70
+heirloom_material, #3d767c
+infused_coin, #ffffdd
+luminous_glass_pane, #ffffff
+mythicalband, #e7ffff
+mythicapple, #c55504
+rareapple, #290eff
+uncommonapple, #12af12

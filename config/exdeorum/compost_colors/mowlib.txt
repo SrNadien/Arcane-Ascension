@@ -1,0 +1,10 @@
+// Compost colors for mowlib. You may add your own colors, change existing ones, or remove colors that aren't needed.
+icon_hand, #d4d4d4
+tag_getter, #ffffff
+tool_dev, #f1f8dd
+tool_filter, #fffbf1
+tool_tag, #faffe7
+tool_work, #f0ebeb
+workcard_area, #d2ffff
+workcard_belocations, #c9ffff
+workcard_locations, #d3ffff

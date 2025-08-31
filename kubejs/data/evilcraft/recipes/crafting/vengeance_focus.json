@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CIC",
+    "IRI",
+    "CIC"
+  ],
+  "key": {
+    "I": {
+      "item": "kubejs:ingot_of_elevation"
+    },
+    "C": {
+      "item": "evilcraft:dark_gem_crushed"
+    },
+    "R": {
+      "item": "evilcraft:vengeance_ring"
+    }
+  },
+  "result": {
+    "item": "evilcraft:vengeance_focus"
+  }
+}

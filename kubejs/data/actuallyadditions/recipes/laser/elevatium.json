@@ -1,0 +1,10 @@
+{
+  "type": "actuallyadditions:laser",
+  "energy": 60000,
+  "ingredient": {
+    "item": "kubejs:empowered_crystal_bundle"
+  },
+  "result": {
+    "item": "kubejs:ingot_of_elevation"
+  }
+}
