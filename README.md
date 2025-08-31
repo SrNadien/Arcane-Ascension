@@ -3,7 +3,8 @@
 
 
 
-<img width="1200" height="418" alt="version" src="https://cf.way2muchnoise.eu/versions/1325697.svg" /><img width="1200" height="418" alt="nombre" src="https://cf.way2muchnoise.eu/title/1325697.svg" /><img width="1200" height="418" alt="descargas" src="https://cf.way2muchnoise.eu/1325697.svg" />
+<img width="100" height="200" alt="version" src="https://cf.way2muchnoise.eu/versions/1325697.svg" />
+<img width="100" height="200" alt="nombre" src="https://cf.way2muchnoise.eu/title/1325697.svg" /><img width="100" height="200" alt="descargas"src="https://cf.way2muchnoise.eu/1325697.svg"/>
 
 
 
