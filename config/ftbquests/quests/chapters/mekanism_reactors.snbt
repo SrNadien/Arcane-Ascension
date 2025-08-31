@@ -344,7 +344,7 @@
 				""
 				"For this build, we'll put 2 of the Fission Fuel Assemblies in the center of our multiblock, and then put the Control Rod Assembly right on top of it."
 				""
-				"{image:atm:textures/questpics/mek/rod_example.png width:250 height:200 align:1}"
+				"{image:custom:textures/questpics/mek/rod_example.png width:250 height:200 align:center}"
 			]
 			id: "3F5010269469EBE0"
 			min_width: 250
@@ -394,7 +394,7 @@
 				""
 				"Whenever the Reactor has critical damage, it will then activate the bottom Adapter, causing the redstone to get a signal, which then activates the Piston and pushes up the Gravel/Sand. This will activate the Observer, which then turns off the Reactor."
 				""
-				"{image:atm:textures/questpics/mek/example_circuit.png width:200 height:250 align:1}"
+				"{image:custom:textures/questpics/mek/example_circuit.png width:200 height:250 align:center}"
 			]
 			icon: "minecraft:observer"
 			id: "7B0764DDE94E73D0"
@@ -1145,13 +1145,13 @@
 				""
 				"The SPS will be 7x7 when built, but it isn't a cube. It follows a simple pattern, which you can follow the images below as a build guide. The pattern looks like this: "
 				""
-				"{image:atm:textures/questpics/mek/basic_sps_shape.png width:250 height:225 align:1}"
+				"{image:custom:textures/questpics/mek/basic_sps_shape.png width:250 height:225 align:center}"
 				""
 				"Each side, including the bottom and top, will follow this pattern. The Supercharged Coils should be placed across from each other in the center of their respective sides, and the remaining two ports will be used to pump in Polonium, and pump out Antimatter Gas."
 				""
 				"Here is the completed structure below: "
 				""
-				"{image:atm:textures/questpics/mek/sps_complete.png width:300 height:250 align:1}"
+				"{image:custom:textures/questpics/mek/sps_complete.png width:300 height:250 align:center}"
 			]
 			id: "2B3F2F470E06BC40"
 			min_width: 350
@@ -1546,7 +1546,7 @@
 				""
 				"We're going to build this Turbine, and the quest requires the exact materials needed."
 				""
-				"{image:atm:textures/questpics/mek/turbine_completed.png width:200 height:225 align:1}"
+				"{image:custom:textures/questpics/mek/turbine_completed.png width:200 height:225 align:center}"
 			]
 			id: "6313B18820445882"
 			min_width: 300
@@ -1816,7 +1816,7 @@
 				""
 				"For this build, we'll be making a 5x5x5. This quest requires the exact amount of materials needed to build this. Need help? &nCheck out the Ponder!&r"
 				""
-				"{image:atm:textures/questpics/mek/induction_matrix.png width:200 height:200 align:1}"
+				"{image:custom:textures/questpics/mek/induction_matrix.png width:200 height:200 align:center}"
 			]
 			hide_until_deps_visible: false
 			id: "673FCBF8685D0EEE"
@@ -1878,7 +1878,7 @@
 				""
 				"You can customize how many you want of each inside of the multiblock, but you will need at least one of each. These also have higher tiers to increase your overall storage and transfer capacity."
 				""
-				"{image:atm:textures/questpics/mek/induction_inside.png width:300 height:200 align:1}"
+				"{image:custom:textures/questpics/mek/induction_inside.png width:300 height:200 align:center}"
 			]
 			hide_until_deps_visible: false
 			id: "14D772808D1BEAE2"

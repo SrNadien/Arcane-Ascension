@@ -2772,7 +2772,7 @@
 				""
 				"Raw ore goes into your Chemical Dissolution Chamber > pumps A GAS to Chemical Washer > pumps A GAS to Chemical Crystallizer >  outputs crystals to Chemical Injection Chamber > outputs shards to Purification Chamber > outputs clumps to Crusher > outputs dirty dusts to Enrichment Chamber > outputs clean dust to Smelter."
 				""
-				"{image:atm:textures/questpics/mek/mekanism_flowchart.png width:300 height:150 align:1 fit:true}"
+				"{image:custom:textures/questpics/mek/mekanism_flowchart.png width:300 height:150 align:center fit:true}"
 			]
 			id: "3C49F2EEDCCAF1DF"
 			min_width: 300

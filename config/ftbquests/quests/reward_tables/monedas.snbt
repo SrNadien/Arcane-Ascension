@@ -3,7 +3,44 @@
 	id: "2A6A35D6097CE745"
 	loot_size: 1
 	order_index: 33
-	rewards: [ ]
+	rewards: [
+		{
+			ftb_money: 1500L
+			type: "sdmshop:money"
+		}
+		{
+			ftb_money: 1000L
+			type: "sdmshop:money"
+		}
+		{
+			ftb_money: 100L
+			type: "sdmshop:money"
+		}
+		{
+			ftb_money: 1500000L
+			type: "sdmshop:money"
+		}
+		{
+			ftb_money: 500L
+			type: "sdmshop:money"
+		}
+		{
+			ftb_money: 12500000L
+			type: "sdmshop:money"
+		}
+		{
+			ftb_money: 1L
+			type: "sdmshop:money"
+		}
+		{
+			ftb_money: 10L
+			type: "sdmshop:money"
+		}
+		{
+			ftb_money: 8800L
+			type: "sdmshop:money"
+		}
+	]
 	title: "monedas"
 	use_title: true
 }

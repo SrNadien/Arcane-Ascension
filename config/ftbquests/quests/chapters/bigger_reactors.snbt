@@ -19,24 +19,24 @@
 			hide_dependency_lines: false
 			hide_until_deps_complete: true
 			id: "344840088684E84E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E7B128E86ECABCC"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
 			tasks: [{
+				consume_items: false
 				id: "2AC8945A0A48E389"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "itemfilters:tag"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "biggerreactors:uranium_ingot"
-							}
-							{
-								Count: 1b
-								id: "mekanism:ingot_uranium"
-							}
-						]
+						value: "forge:ingots/uranium"
 					}
 				}
+				only_from_crafting: false
+				title: "Uranium Ingot"
 				type: "item"
 			}]
 			title: "Bienvenido A Bigger reactors"
@@ -46,6 +46,12 @@
 		{
 			dependencies: ["344840088684E84E"]
 			id: "2436C552EB01CA15"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F4F78DFB5282E85"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "0B90B489B1AD5ACF"
 				item: "biggerreactors:graphite_ingot"
@@ -57,6 +63,12 @@
 		{
 			dependencies: ["2436C552EB01CA15"]
 			id: "54600B3DFCBDF083"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "720189AE71718885"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "0E96BAEC965EE442"
 				item: "biggerreactors:reactor_casing"
@@ -68,8 +80,14 @@
 		}
 		{
 			dependencies: ["54600B3DFCBDF083"]
-			description: ["{image:atm:textures/questpics/biggerreactors/reactor_passive.png width:100 height:100 align:center}"]
+			description: ["{image:custom:textures/questpics/biggerreactors/reactor_passive.png width:100 height:100 align:center}"]
 			id: "388B84CF67B77563"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3281C760F432F72F"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
 			subtitle: "Reactor Gui"
 			tasks: [
 				{
@@ -120,6 +138,12 @@
 		{
 			dependencies: ["388B84CF67B77563"]
 			id: "63D77FC905080D63"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02452B357C5F06B5"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "00AAE29CCF90C67F"
@@ -140,13 +164,19 @@
 			dependencies: ["54600B3DFCBDF083"]
 			description: [
 				"Ejemplo 3x3"
-				"{image:galaxyorigenes:textures/viejas/biggerreactors/3x3_reactor.png width:100 height:100 align:center}"
+				"{image:custom:textures/viejas/biggerreactors/3x3_reactor.png width:100 height:100 align:center}"
 				""
 				"Ejemplo 5x5"
-				"{image:galaxyorigenes:textures/viejas/biggerreactors/5x5_completed.png width:100 height:100 align:center}"
+				"{image:custom:textures/viejas/biggerreactors/5x5_completed.png width:100 height:100 align:center}"
 			]
 			icon: "biggerreactors:reactor_terminal"
 			id: "498936AE8333701E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52BAFFC86CB35C21"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
 			shape: "gear"
 			subtitle: "Ejemplo 3x3"
 			tasks: [{
@@ -162,6 +192,12 @@
 			dependencies: ["63D77FC905080D63"]
 			icon: "biggerreactors:ludicrite_block"
 			id: "1B3736A9D8B83461"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35178FF0E7C49955"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "431C9EF0B64964DD"
 				item: "minecraft:stripped_oak_wood"
@@ -173,8 +209,14 @@
 		}
 		{
 			dependencies: ["1B3736A9D8B83461"]
-			description: ["{image:galaxyorigenes:textures/viejas/biggerreactors/turbine_ui.png width:100 height:100 align:center}"]
+			description: ["{image:custom:textures/questpics/biggerreactors/turbine_ui.png width:100 height:100 align:center}"]
 			id: "61C8846ED2E4099F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70DAA475555953F9"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					count: 27L
@@ -230,9 +272,9 @@
 		{
 			dependencies: ["61C8846ED2E4099F"]
 			description: [
-				"{image:galaxyorigenes:textures/viejas/biggerreactors/side_turbine_5x4x5.png width:100 height:100 align:center}"
-				"{image:galaxyorigenes:textures/viejas/biggerreactors/turbine_horizontal_shaft.png width:100 height:100 align:center}"
-				"{image:galaxyorigenes:textures/viejas/biggerreactors/reactor_turbine_example.png width:100 height:100 align:center}"
+				"{image:custom:textures/questpics/biggerreactors/turbine_5x4x5.png width:100 height:100 align:center}"
+				"{image:custom:textures/viejas/biggerreactors/turbine_horizontal_shaft.png width:100 height:100 align:center}"
+				"{image:custom:textures/viejas/biggerreactors/reactor_turbine_example.png width:100 height:100 align:center}"
 			]
 			icon: "biggerreactors:turbine_terminal"
 			id: "1D724AAE550524C7"

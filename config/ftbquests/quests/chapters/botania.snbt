@@ -15,7 +15,7 @@
 		x: 27.5d
 		y: 2.0d
 	}]
-	order_index: 5
+	order_index: 4
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -2396,7 +2396,7 @@
 				""
 				"{atm9.quest.botania.desc.tAPlate.4}"
 				""
-				"{image:atm:textures/questpics/botania/t_a_plate_base.png width:200 height:150 align:1}"
+				"{image:custom:textures/questpics/botania/t_a_plate_base.png width:200 height:150 align:center}"
 			]
 			icon: "botania:terrasteel_ingot"
 			id: "23A2865FBE7831AB"
@@ -2592,7 +2592,7 @@
 				""
 				"{atm9.quest.botania.desc.portalSetup.5}"
 				""
-				"{image:atm:textures/questpics/botania/elven_portal.png width:200 height:175 align:1}"
+				"{image:custom:textures/questpics/botania/elven_portal.png width:200 height:175 align:center}"
 			]
 			id: "1EF7664F5D8C5FF1"
 			min_width: 500
@@ -2647,7 +2647,7 @@
 				""
 				"{atm9.quest.botania.desc.gaiaSpiritQuest.3}"
 				""
-				"{image:atm:textures/questpics/botania/gaia_ritual.png width:300 height:100 align:1}"
+				"{image:custom:textures/viejas/botania/gaia_ritual.png width:300 height:100 align:center}"
 			]
 			id: "04CE14D92603FC7A"
 			min_width: 300

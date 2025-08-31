@@ -1,5 +1,4 @@
 {
-	always_invisible: true
 	autofocus_id: "7B16C9B48BFDC6A0"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
@@ -47,8 +46,9 @@
 					type: "item"
 				}
 				{
+					icon: "lootr:trophy"
 					id: "0118FE2956AE416E"
-					item: "allthetweaks:trophy_atm"
+					item: "lootr:trophy"
 					type: "item"
 				}
 			]
@@ -446,15 +446,23 @@
 			description: ["{atm9.quest.start3.desc.warden}"]
 			hide_until_deps_visible: true
 			id: "77E8626D70656436"
-			rewards: [{
-				id: "0F791A5859F068DB"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
+			rewards: [
+				{
+					id: "0F791A5859F068DB"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 20
+					id: "6E2AC1E57EEB9366"
+					item: "minecraft:warden_spawn_egg"
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "77E28F2F4E14715C"
-				item: "ars_caelum:ritual_conjure_island_sculk"
+				item: "apotheosis:warden_tendril"
 				type: "item"
 			}]
 			title: "{atm9.quest.start3.warden}"
@@ -798,7 +806,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "67B815DADD76235C"
-				item: "psi:psigem"
+				item: "ultimate_utilities:nadienitebloque"
 				type: "item"
 			}]
 			title: "Psi"
@@ -853,9 +861,8 @@
 					xp_levels: 1
 				}
 				{
-					count: 2
 					id: "43A7FA4B9412E05E"
-					item: "bloodmagic:blankslate"
+					item: "mysticalagriculture:dragon_steel_ingot_seeds"
 					type: "item"
 				}
 			]
@@ -887,14 +894,14 @@
 				{
 					count: 5
 					id: "110D513A48D83C2E"
-					item: "forcecraft:force_ingot"
+					item: "evilcraft:dark_power_gem"
 					type: "item"
 				}
 			]
 			size: 1.5d
 			tasks: [{
 				id: "39E563B28292E594"
-				item: "bhc:soul_heart_crystal"
+				item: "ars_nouveau:novice_spell_book"
 				type: "item"
 			}]
 			title: "Baublery Hearth Cnisters"
@@ -969,13 +976,15 @@
 			rewards: [
 				{
 					id: "2D58E8B5D035FC0E"
+					team_reward: false
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
 					count: 10
 					id: "51A46302225566C6"
-					item: "advgenerators:iron_frame"
+					item: "kubejs:heart_of_a_universe"
+					team_reward: false
 					type: "item"
 				}
 			]
@@ -1183,12 +1192,19 @@
 			description: ["{atm9.quest.start3.desc.antimatter}"]
 			hide_dependent_lines: true
 			id: "6B60F2CE877E31C8"
-			rewards: [{
-				count: 3
-				id: "2B0B94F0C9BE7E4C"
-				item: "mekanism:pellet_antimatter"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "2B0B94F0C9BE7E4C"
+					item: "mekanism:pellet_antimatter"
+					type: "item"
+				}
+				{
+					id: "784A038A575EB1E0"
+					item: "mekanism:meka_tool"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "34C1BA2F3EECADE3"
 				item: "mekanism:pellet_antimatter"
@@ -1302,11 +1318,18 @@
 			description: ["{atm9.quest.start3.desc.gale}"]
 			hide_dependent_lines: true
 			id: "51560FBFF7429055"
-			rewards: [{
-				id: "307DC5873D7629D1"
-				item: "mekanism_extras:enriched_shining"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "307DC5873D7629D1"
+					item: "mekanism_extras:enriched_shining"
+					type: "item"
+				}
+				{
+					id: "2622CAF339AF07DE"
+					item: "mekanism:mekasuit_pants"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "45CE24BDF41486F2"
 				item: "mekanism_extras:cosmic_induction_cell"
@@ -1321,9 +1344,8 @@
 			hide_dependent_lines: true
 			id: "5A0A2C2137CC62CF"
 			rewards: [{
-				count: 3
 				id: "020D7D842FF12558"
-				item: "advgenerators:power_capacitor_tier3"
+				item: "solarflux:sp_avaritia.infinity"
 				type: "item"
 			}]
 			tasks: [{
@@ -1386,7 +1408,7 @@
 			}]
 			tasks: [{
 				id: "576C9D6417DB50BB"
-				item: "bhc:soul_heart_amulet"
+				item: "ars_nouveau:source_jar"
 				type: "item"
 			}]
 			x: -7.5d
@@ -1408,7 +1430,7 @@
 			}]
 			tasks: [{
 				id: "4947F251C6DE882A"
-				item: "psi:psigem_block"
+				item: "ultimate_utilities:chancla"
 				type: "item"
 			}]
 			x: -7.5d
@@ -1454,12 +1476,19 @@
 			description: ["{atm9.quest.start3.desc.aeternalis}"]
 			hide_dependent_lines: true
 			id: "5AAD778BC16C6D46"
-			rewards: [{
-				count: 64
-				id: "41AE72F10EDB7A65"
-				item: "minecraft:coal_block"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 64
+					id: "41AE72F10EDB7A65"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+				{
+					id: "5C4C3DBDF2501FB4"
+					item: "mekanism:mekasuit_bodyarmor"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "34F5C1168F221309"
 				item: "mekanism_extras:enriched_spectrum"
@@ -1474,12 +1503,19 @@
 			description: ["{atm9.quest.start3.desc.ring}"]
 			hide_dependent_lines: true
 			id: "6B9F5A4BA326E238"
-			rewards: [{
-				count: 3
-				id: "40FD7E9258B8EE6C"
-				item: "allthemodium:unobtainium_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "40FD7E9258B8EE6C"
+					item: "allthemodium:unobtainium_ingot"
+					type: "item"
+				}
+				{
+					id: "7440A75380DD0A6E"
+					item: "mekanism:mekasuit_boots"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "32EED772E1BBA21E"
 				item: "mekanism_extras:enriched_shining"
@@ -1618,12 +1654,19 @@
 			description: ["{atm9.quest.start3.desc.dark}"]
 			hide_dependent_lines: true
 			id: "1CAE10DF5FF07DC6"
-			rewards: [{
-				count: 3
-				id: "156DBF76C50E5E62"
-				item: "allthemodium:allthemodium_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "156DBF76C50E5E62"
+					item: "allthemodium:allthemodium_ingot"
+					type: "item"
+				}
+				{
+					id: "5BDAFD2FBE65267C"
+					item: "mekanism:mekasuit_helmet"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0D516034842E6933"
 				item: "mekanism_extras:infinite_induction_cell"
@@ -1893,20 +1936,33 @@
 			y: 8.5d
 		}
 		{
-			icon: "modularrouters:modular_router"
 			id: "1FA942C07175C1E4"
 			rewards: [{
+				icon: {
+					Count: 1
+					id: "enchanted:otherwhere_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
 				id: "48030138B30F7505"
-				item: "modularrouters:breaker_module"
+				item: {
+					Count: 1
+					id: "enchanted:otherwhere_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			size: 1.5d
 			tasks: [{
+				count: 6L
 				id: "7862058DD377077A"
-				item: "modularrouters:blank_module"
+				item: "enchanted:altar"
 				type: "item"
 			}]
-			title: "Modular Routers"
+			title: "Witchery"
 			x: 10.5d
 			y: 7.5d
 		}
@@ -1914,13 +1970,14 @@
 			dependencies: ["1FA942C07175C1E4"]
 			id: "0F3EC31AD3958F23"
 			rewards: [{
+				count: 8
 				id: "02D6892F29342FD3"
-				item: "modularrouters:energy_output_module"
+				item: "enchanted:redstone_soup"
 				type: "item"
 			}]
 			tasks: [{
 				id: "1DFF00F1E12AAF50"
-				item: "modularrouters:modular_router"
+				item: "enchanted:witch_oven"
 				type: "item"
 			}]
 			x: 8.5d
